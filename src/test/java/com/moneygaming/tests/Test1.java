@@ -15,7 +15,7 @@ public class Test1 {
     @BeforeMethod
     public void setUp () {
 
-    WebDriver driver = WebDriverFactory.getDriver("chrome");
+    driver = WebDriverFactory.getDriver("chrome");
     driver.manage().window().maximize();
     //get the page
     driver.get("https://moneygaming.qa.gameaccount.com/sign-up.shtml");
