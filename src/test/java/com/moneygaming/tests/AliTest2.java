@@ -13,7 +13,7 @@ public class AliTest2 {
         WebDriver driver = WebDriverFactory.getDriver("chrome");
         driver.get("https://www.amazon.co.uk/");
         WebElement inputBox = driver.findElement(By.cssSelector("#twotabsearchtextbox"));
-        inputBox.sendKeys("SamsungQLED TV");
+        inputBox.sendKeys("SamsungQLED 55inc TV");
         WebElement clickButton = driver.findElement(By.cssSelector("#nav-search-submit-button"));
         clickButton.click();
     }
